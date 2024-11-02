@@ -45,6 +45,9 @@ vergen-gitcl = { version = "1.0.0", features = [
 	"si",
 ] } # vergen passes metadata like the version and git commit hash to cargo as a compile-time environment variables
 
+[patch.crates-io]
+firebae-cm = { git = 'https://github.com/productlabteam/firebae-cm.git' }
+
 [lints.rust]
 dead_code = "warn"
 missing_debug_implementations = "warn"
